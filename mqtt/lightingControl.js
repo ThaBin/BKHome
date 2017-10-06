@@ -21,6 +21,11 @@ client.on('message', (topic, message) => {
         _id: lightId,
         value: value
       }
+
+      if (portId == 1){
+      LightingControl.findAndUpdateLight(lightId, value)
+    };
+
       console.log(message)
       io.sockets.emit('device-event', message)
       return Promise.resolve(message);

@@ -48,7 +48,7 @@ io.on('connection', (socket) => {
     LightingControl.findAndUpdateLight(light._id, light.value)
     .then(device=>{
       let value = light.value
-      if(device.dimmable){
+      if(device.typeOfLight=='Bulb'){
         value = Math.round(Math.acos(Math.sqrt(value/100))/(Math.PI*50)*1000000);
         value = value < 1000 ? 1000 : value;
       }
