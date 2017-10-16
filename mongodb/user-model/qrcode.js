@@ -27,3 +27,5 @@ const QRSchema = new Schema({
           return Promise.resolve('UsrQRcode has been deleted')
         })
       }
+
+  

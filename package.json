@@ -20,6 +20,7 @@
     "mongodb": "^2.2.25",
     "mongoose": "*",
     "mosca": "^2.2.0",
+    "node-qrious": "^4.0.0",
     "nodemailer": "^4.1.0",
     "passport": "*",
     "passport-jwt": "*",
