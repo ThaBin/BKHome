@@ -87,7 +87,7 @@
   /*modal2*/
   
   .form-group {
-      float: left;
+      
       margin-right: 20px;
   }
   
@@ -156,6 +156,20 @@
     /*height: 100px;*/
     /*margin-top: 5px;*/
   }
+
+  .qrcode-picture{
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: auto;
+    
+  }
+
+  .qrcode>h4{
+    text-align: center;
+    margin-top: 20px;
+    color: #2196F3;
+  }
   
   .fingerprint>h4, .rfid>h4{
     text-align: center;
@@ -195,4 +209,12 @@
     height: 216px;
     width: 179px;
   }
+
+  #wrapp{
+    display: block;
+    margin-left:375px;
+    
+  }
+
+  
   

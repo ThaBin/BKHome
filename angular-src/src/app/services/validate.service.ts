@@ -14,7 +14,7 @@ export class ValidateService {
   }
 
   validateQRcode(user){
-    if(user.name == undefined || user.email == undefined || user.content == undefined || user.image == undefined) {
+    if(user.name == undefined || user.email == undefined) {
       return false;
     } else {
     return true;

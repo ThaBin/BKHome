@@ -4,8 +4,9 @@
       <div class="modal-header">
         <!-- <h4 class="modal-title">Delete all data</h4> -->
         <div class="picture fingerprint delete-fingerprint">
-            <h4  style="color:#737373; line-height: 26px;">Please select users you want to delete!</h4>
-          <div class="list-floor" *ngFor="let user of users | reverse">
+            <h4  *ngIf="noUsers==false" style="color:#737373; line-height: 26px;">Please select users you want to delete!</h4>
+            <h4  *ngIf="noUsers==true" style="color:#737373; line-height: 26px;">No users!</h4>
+          <div class="list-floor" *ngFor="let user of filteredUsers | reverse">
             <label style="color: #0C0909">{{user.name}}: {{user.email}}</label>: <input type="checkbox" id="{{user._id}}" (click)="getuser(user.name, user._id)" value="" />
           </div>
         </div>
@@ -20,52 +21,48 @@
 
 <div bsModal #smModal2="bs-modal" class="modal fade modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   
-          <div class="container" style="color: white">
-              <h2 class="page-header">QRcode</h2>
+        <div class="container" style="color: white">
+          <h2 class="page-header" style="text-align:center">QRcode</h2>
+            <div id="wrapp">
               <form (submit)="onQRcodeSubmit();smModal2.hide()">
-                <div class="form-group">
+                <div class="form-group col-md-6">
                   <label>Name</label>
                   <input type="text" [(ngModel)]="name" name="name" class="form-control">
                 </div>
                 
-                <div class="form-group">
+                <div class="form-group col-md-6">
                   <label>Email</label>
                   <input type="text" [(ngModel)]="email" name="email" class="form-control">
-                </div>
-          
-                <div class="form-group">
-                  <label>Content</label>
-                  <input type="text" [(ngModel)]="content" name="content" class="form-control">
-                </div>
+                </div> 
                 
-                <div> <input type="submit" class="btn btn-primary" value="Create"> </div>
+                <div> <input type="submit" class="btn btn-primary col-md-6" value="Create"> 
+                </div>
               </form>
-              <div class="pic" >
-                   <qr-code id="base64" [value]= "content" [size]="150"></qr-code> 
-              </div>
-            </div>
+            </div>  
+            
+          </div>
       </div>
       
     
 
 <div class="row">
   <div class="col-md-5">
-    <div class="picture fingerprint">
-      <img src="./assets/images/access-control/fingerprint3.png"
-           class="img-circle fingerprint-picture fingerprint-picture-gray"
+    <div class="picture qrcode">
+      <img src="./assets/images/access-control/qrcode.png"
+           class="img-circle qrcode-picture fingerprint-picture-gray"
            alt="Responsive image"
             (click)="smModal3.show()">
-      <h4  style="color:#9a8484">Delete all data</h4>
+      <h4  style="color:#9a8484">Delete datas</h4>
     </div>
   </div>
   <hr class="vertical">
   <div class="col-md-5">
-    <div class="picture fingerprint">
-      <img src="./assets/images/access-control/fingerprint3.png"
-           class="img-circle fingerprint-picture"
+    <div class="picture qrcode">
+      <img src="./assets/images/access-control/qrcode.png"
+           class="img-circle qrcode-picture"
            alt="Responsive image"
             (click)="smModal2.show()">
-      <h4>Add a fingerprint</h4>
+      <h4>Create a QRcode</h4>
     </div>
   </div>
 </div>

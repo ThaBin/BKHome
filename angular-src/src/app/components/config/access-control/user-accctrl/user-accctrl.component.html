@@ -121,9 +121,9 @@
                    class="img qrcode-picture"
                    alt="Responsive image"
                    (click)="show_qrcode_row()"
-                  [ngStyle]="isQRCODEAvailable ? '' : grayFilter">
-                  <h4 [ngStyle]="isQRCODEvailable ? '' : grayFilter">
-                    QRcode <i class="fa fa-check" aria-hidden="true" [hidden]="!isQRCODEAvailable"></i>
+                  [ngStyle]="isQRAvailable ? '' : grayFilter">
+                  <h4 [ngStyle]="isQRvailable ? '' : grayFilter">
+                    QRcode <i class="fa fa-check" aria-hidden="true" [hidden]="!isQRAvailable"></i>
                   </h4>
             </div>
           </div>
@@ -140,13 +140,14 @@
             </div>
           </div>
           <div class="col-md-5">
+            <!-- (click)="show_face_row()" nang cap thi de y cai nay de sua vao -->
             <div class="picture fingerprint">
               <img src="./assets/images/access-control/face-recognition.png"
                    class="img-circle fingerprint-picture"
                    alt="Responsive image"
-                    (click)="show_face_row()"
-                    [ngStyle]="isFingerprintAvailable ? '' : grayFilter">
-              <h4 [ngStyle]="isFingerprintAvailable ? '' : grayFilter">
+                    
+                    [ngStyle]="grayFilter">
+              <h4 [ngStyle]="grayFilter">
                 Face <i class="fa fa-check" aria-hidden="true" [hidden]="!isFingerprintAvailable"></i>
               </h4>
             </div>
@@ -157,7 +158,7 @@
         <app-qrcode-access
             [user]="user"
             (backEvent)="show_main_row()"
-            (isFingerprintAvailable)="isFingerprintAvailable=$event;">
+            (isQRAvailable)="isQRAvailable=$event;">
         </app-qrcode-access>
       </div>
       <div class="col-md-8 device-picker"  [hidden]="fingerprint_hidden">

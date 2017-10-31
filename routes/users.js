@@ -41,15 +41,20 @@ router.get('/qrcode', (req, res, next) => {
 //Delete qrcode
 router.delete('/qrcode/:id', (req, res, next) => {
   let userId = req.params.id;
+  
   QR.deleteUser(userId)
   .then(result=>{
     res.json({success: true, msg: result});
+    
   })
   .catch(err=>{
     console.log(err)
     res.json({success: false, msg: err.message})
+    
   })
 });
+
+
 
 //addNewQR
 router.post('/qrcode', (req, res, next) => {

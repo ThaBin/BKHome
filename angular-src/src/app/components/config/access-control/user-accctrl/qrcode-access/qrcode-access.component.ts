@@ -4,7 +4,7 @@ import { UserService} from '../../../../../services/rest-api/user.service';
 import { FlashMessagesService } from 'angular2-flash-messages'
 import { Router } from '@angular/router';
 import {ToastrService} from 'ngx-toastr';
-import {QRCodeComponent} from 'angular2-qrcode';
+
 
 @Component({
   selector: 'app-qrcode-access',
@@ -13,20 +13,21 @@ import {QRCodeComponent} from 'angular2-qrcode';
 })
 export class QrcodeAccessComponent implements OnInit {
   @Output() backEvent = new EventEmitter();
-  @Output() isFingerprintAvailable = new EventEmitter<Boolean>();
+  @Output() isQRAvailable = new EventEmitter<Boolean>();
   @Input() user;
+ 
 
   name: String;
   email: String;
-  content: String;
-  pre_image: String;
-  image_base64:String;
-  users: Object;
+  filteredUsers=[];
+  users: any;
   userSelectedId: String;
   userDeletedName: String;
   deleteUsers = [];
-  success: boolean;
+  success: boolean = true;
   test: boolean;
+  effort: boolean = false;
+  noUsers: boolean;
   
   constructor(
     private validateService: ValidateService,
@@ -42,20 +43,13 @@ this.getListOfusers();
 
 
 onQRcodeSubmit(){
-  // receive image
-let canvase = document.getElementById('base64');
-this.pre_image = canvase.innerHTML;
-let end = this.pre_image.lastIndexOf("width") - 2;
-this.image_base64 = this.pre_image.slice(32, end);
-
+ 
 const QRuser = {
   name: this.name,
   email: this.email,
-  content: this.content,
-  image: this.image_base64,
-  _userId: this.user
+  _userId: this.user._id
 }
-
+console.log(QRuser)
 // Required Fields
 if(!this.validateService.validateQRcode(QRuser)) {
 this.toastrService.error('Oops! please fill all fields', 'Error');
@@ -85,7 +79,6 @@ this.test = (document.getElementById(userId) as HTMLInputElement).checked
 
 if (this.test){
 this.deleteUsers.push(this.userSelectedId);
-
 }
 else{
   for(let i=0; i<this.deleteUsers.length; i++){
@@ -94,38 +87,75 @@ else{
      }
   
 }
-
 }
 }
 
 getListOfusers(){
+this.filteredUsers = [];
 this.authService.getListOfQRcodes().subscribe(res => {
 if(!res.success){
-console.log(res.msg)
+this.filteredUsers = [];
 } else{
-this.users = res.users;
+  this.users = res.users;
+  for(let usr of this.users){
+    if (usr.userId == this.user._id){
+       this.filteredUsers.push(usr);
+    }
+  }
 }
-},
-err => {
-console.log(err);
-return false;
+if(this.filteredUsers.length == 0) {this.noUsers=true}
+else {this.noUsers=false}
 });
+
 }
 
 deleteUser(){
-for(let i=0; i<this.deleteUsers.length; i++){
-this.authService.deleteUser(this.deleteUsers[i]).subscribe(res => {
-if(res.success){
-  this.deleteUsers = [];
-  this.success = true;
-}     
-})
-}
+  if(this.effort == false){
+    for(let i=0; i<this.deleteUsers.length; i++){
+      this.authService.deleteUser(this.deleteUsers[i]).subscribe(res => {});
+    }
+    this.effort = true;
+  
+
+  for(let i=1; i<this.deleteUsers.length; i++){
+    this.authService.deleteUser(this.deleteUsers[i]).subscribe(res => {
+      if(res.success){
+        
+        this.success = true;
+                } else {
+                 
+                    this.success = false; 
+                        }
+         })
+    if (this.success == false) break;
+      }
+    } else {
+      for(let i=0; i<this.deleteUsers.length; i++){
+        this.authService.deleteUser(this.deleteUsers[i]).subscribe(res => {
+          if(res.success){
+            
+            this.success = true;
+                    } else {
+                     
+                        this.success = false; 
+                            }
+             })
+        if (this.success == false) break;
+          }
+    }  
+  
 if (this.success){
 this.toastrService.success('deleted!', 'Success');
-} else {
+    } else {
 this.toastrService.error('Oops! please try later', 'Error');
-}
+        }
+this.deleteUsers=[];
 this.getListOfusers()
+
 }
+
+
+back(){
+  this.backEvent.emit();
+      }
 }

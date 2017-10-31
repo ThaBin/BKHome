@@ -52,7 +52,6 @@ export class UserService {
   getProfile(){
     let headers = new Headers();
     this.loadToken();
-    console.log(this.authToken);
     headers.append('Authorization', this.authToken);
     headers.append('Content-Type', 'application/json');
     return this.http.get(this.baseURL + '/users/profile', {headers: headers})
