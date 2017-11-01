@@ -52,7 +52,7 @@ const QRuser = {
 console.log(QRuser)
 // Required Fields
 if(!this.validateService.validateQRcode(QRuser)) {
-this.toastrService.error('Oops! please fill all fields', 'Error');
+this.toastrService.error('Oops! please fill all fields', 'Error', { timeOut: 1000 });
 return false;
 }
 // Required Email
@@ -63,9 +63,9 @@ return false;
 // Register QRcode
 this.authService.registerQRcode(QRuser).subscribe(data => {
   if(data.success){
-    this.toastrService.success('Created!', 'Success');
+    this.toastrService.success('Created!', 'Success', { timeOut: 1000 });
     } else {
-    this.toastrService.error('Oops! please try later', 'Error');
+    this.toastrService.error('Oops! please try later', 'Error', { timeOut: 1000 });
     
   }
 })
@@ -145,12 +145,36 @@ deleteUser(){
     }  
   
 if (this.success){
-this.toastrService.success('deleted!', 'Success');
+this.toastrService.success('deleted!', 'Success', { timeOut: 1000 });
     } else {
-this.toastrService.error('Oops! please try later', 'Error');
+this.toastrService.error('Oops! please try later', 'Error', { timeOut: 1000 });
         }
 this.deleteUsers=[];
 this.getListOfusers()
+
+}
+
+DeleteAll(){
+  this.filteredUsers = [];
+  this.authService.getListOfQRcodes().subscribe(res => {
+  if(!res.success){
+  this.filteredUsers = [];
+  } else{
+    this.users = res.users;
+    for(let usr of this.users){
+      if (usr.userId == this.user._id){
+         this.filteredUsers.push(usr);
+      }
+    }
+  } 
+  for(let i=0; i<this.filteredUsers.length; i++){
+    this.authService.deleteUser(this.filteredUsers[i]._id).subscribe(res => {
+      this.getListOfusers();
+    });
+  }
+  
+  });
+  
 
 }
 

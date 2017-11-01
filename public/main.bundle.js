@@ -80,7 +80,7 @@ exports = module.exports = __webpack_require__(3)();
 
 
 // module
-exports.push([module.i, "\n.fa {\n    cursor: pointer;\n    color: auto;\n    background-color: inherit;\n    border: 0px;\n  }\n  \n  \n  .fa-plus-circle {\n    color: #93c54b;\n  }\n  \n  .checkbox-input {\n    height: 30px;\n    margin-right: 10px;\n  }\n  /*add user*/\n  \n  \n  .row{\n    background-color: #f8f5f0;\n    margin: 42px 0 0 0;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n  }\n  \n  /*modal*/\n  .modal-sm{\n    margin-top: 105px;\n  }\n  \n  .modal-content{\n    background-color: #f8f5f0;\n  }\n  \n  .modal-header{\n    padding: 29px 15px 0px 15px;\n  }\n  .modal-title {\n    text-align: center;\n    font-size: 20px;\n    line-height: 32px;\n  }\n  \n  .modal-body{\n    margin: 0 auto;\n    text-align: right;\n    padding: 0px 15px 5px 15px;\n  }\n  \n  .btn-modal {\n    width: 69px;\n    /* margin-left: 10px; */\n    /* margin-right: 10px; */\n    background-color: inherit;\n    color: #00BCD4;\n    font-size: 17px;\n  }\n  \n  /*modal*/\n  \n  /*model2*/\n  \n  .enrol-fingerprint{\n    min-height: 347px;\n  }\n  \n  .img-picker-dialog{\n    width: 48%;\n    margin-top: 6%;\n  }\n  \n  .img-picker-header{\n    padding: 16px 15px 11px 15px;\n    text-align: center;\n  }\n  \n  .img-picker-body{\n    display: inline-block;\n  }\n  \n  .img-picker-body>.row>.col-md-4>img{\n    margin: 10px 5px;\n    height: 85px;\n    cursor: pointer;\n  }\n  /*modal2*/\n  \n  .form-group {\n      float: left;\n      margin-right: 20px;\n  }\n  \n  \n  .btn-add-user {\n      line-height: 0;\n  }\n  \n  .button{\n    padding: 16px 11px 5px 0px;\n    height: 65px;\n    position: absolute;\n    right: 5px;\n    bottom: 5px;\n  }\n  \n  \n  .btn-back{\n    float: right;\n    margin-right: 5px;\n  }\n  \n  .btn-back>button{\n    padding: 7px 15px;\n    background-color: inherit;\n  }\n  \n  .btn-back>button:hover{\n    padding: 7px 15px;\n    background-color: inherit;\n    color: black;\n  }\n  \n   .btn-back>button:focus{\n     padding: 7px 15px;\n     background-color: inherit;\n     color: black;\n     outline: none;\n   }\n  \n  \n  .footer{\n    width: 100%;\n    height: 70px;\n  }\n  \n  .device-picker>.row{\n    margin-top: 42px;\n  }\n  \n  .fingerprint-picture, .rfid-picture, .user-picture{\n    display: block;\n    margin: 0 auto;\n  }\n  .user-picture{\n    width: 120px;\n    height: 120px;\n  }\n  \n  .picture{\n    cursor: pointer;\n  }\n  \n  .fingerprint-picture, .rfid-picture{\n    width: 120px;\n    /*height: 100px;*/\n    /*margin-top: 5px;*/\n  }\n  \n  .fingerprint>h4, .rfid>h4{\n    text-align: center;\n    margin-top: 0px;\n    color: #2196F3;\n  }\n  \n  .fingerprint-picture-gray{\n    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */\n      filter: grayscale(100%);\n  }\n  \n  \n  .user-name{\n    text-align: center;\n    color: white;\n  }\n  \n  hr.vertical\n  {\n    width: 2px;\n    height: inherit;\n    background-color: #2196F3;\n  }\n  \n  .modal-add-fingerprint{\n    margin-top: 150px;\n  }\n  \n  .add-fingerprint>h4{\n    color: #198ba6;\n    text-align: center;\n    font-size: 25px;\n  }\n  \n  .add-fingerprint>img{\n    height: 216px;\n    width: 179px;\n  }\n  ", ""]);
+exports.push([module.i, "\n.fa {\n    cursor: pointer;\n    color: auto;\n    background-color: inherit;\n    border: 0px;\n  }\n  \n  \n  .fa-plus-circle {\n    color: #93c54b;\n  }\n  \n  .checkbox-input {\n    height: 30px;\n    margin-right: 10px;\n  }\n  /*add user*/\n  \n  \n  .row{\n    background-color: #f8f5f0;\n    margin: 42px 0 0 0;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n  }\n  \n  /*modal*/\n  .modal-sm{\n    margin-top: 105px;\n  }\n  \n  .modal-content{\n    background-color: #f8f5f0;\n  }\n  \n  .modal-header{\n    padding: 29px 15px 0px 15px;\n  }\n  .modal-title {\n    text-align: center;\n    font-size: 20px;\n    line-height: 32px;\n  }\n  \n  .modal-body{\n    margin: 0 auto;\n    text-align: right;\n    padding: 0px 15px 5px 15px;\n  }\n  \n  .btn-modal {\n    width: 69px;\n    /* margin-left: 10px; */\n    /* margin-right: 10px; */\n    background-color: inherit;\n    color: #00BCD4;\n    font-size: 17px;\n  }\n  \n  /*modal*/\n  \n  /*model2*/\n  \n  .enrol-fingerprint{\n    min-height: 347px;\n  }\n  \n  .img-picker-dialog{\n    width: 48%;\n    margin-top: 6%;\n  }\n  \n  .img-picker-header{\n    padding: 16px 15px 11px 15px;\n    text-align: center;\n  }\n  \n  .img-picker-body{\n    display: inline-block;\n  }\n  \n  .img-picker-body>.row>.col-md-4>img{\n    margin: 10px 5px;\n    height: 85px;\n    cursor: pointer;\n  }\n  /*modal2*/\n  \n  .form-group {\n      \n      margin-right: 20px;\n  }\n  \n  \n  .btn-add-user {\n      line-height: 0;\n  }\n  \n  .back-button{\n    padding: 16px 11px 5px 0px;\n    height: 65px;\n    position: absolute;\n    right: 5px;\n    bottom: 5px;\n  }\n  \n  \n  .btn-back{\n    float: right;\n    margin-right: 5px;\n\n    \n  }\n  \n  .btn-back>button{\n    padding: 7px 15px;\n    background-color: inherit;\n  }\n  \n  .btn-back>button:hover{\n    padding: 7px 15px;\n    background-color: inherit;\n    color: black;\n  }\n  \n   .btn-back>button:focus{\n     padding: 7px 15px;\n     background-color: inherit;\n     color: black;\n     outline: none;\n   }\n\n   .delete-button{\n    padding: 16px 0px 5px 11px;\n    height: 65px;\n    position: absolute;\n    left: 5px;\n    bottom: 5px;\n  }\n   .btn-delete{\n    float: left;\n    margin-left: 5px;\n    \n  }\n  \n  .btn-delete>button{\n    padding: 7px 15px;\n    background-color: inherit;\n  }\n  \n  .btn-delete>button:hover{\n    padding: 7px 15px;\n    background-color: inherit;\n    color: black;\n  }\n  \n   .btn-delete>button:focus{\n     padding: 7px 15px;\n     background-color: inherit;\n     color: black;\n     outline: none;\n   }\n  \n  \n  .footer{\n    width: 100%;\n    height: 70px;\n  }\n  \n  .device-picker>.row{\n    margin-top: 42px;\n  }\n  \n  .fingerprint-picture, .rfid-picture, .user-picture{\n    display: block;\n    margin: 0 auto;\n  }\n  .user-picture{\n    width: 120px;\n    height: 120px;\n  }\n  \n  .picture{\n    cursor: pointer;\n  }\n  \n  .fingerprint-picture, .rfid-picture{\n    width: 120px;\n    /*height: 100px;*/\n    /*margin-top: 5px;*/\n  }\n\n  .qrcode-picture{\n    width: 80px;\n    height: auto;\n    display: block;\n    margin: auto;\n    \n  }\n\n  .qrcode>h4{\n    text-align: center;\n    margin-top: 20px;\n    color: #2196F3;\n  }\n  \n  .fingerprint>h4, .rfid>h4{\n    text-align: center;\n    margin-top: 0px;\n    color: #2196F3;\n  }\n  \n  .fingerprint-picture-gray{\n    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */\n      filter: grayscale(100%);\n  }\n  \n  \n  .user-name{\n    text-align: center;\n    color: white;\n  }\n  \n  hr.vertical\n  {\n    width: 2px;\n    height: inherit;\n    background-color: #2196F3;\n  }\n  \n  .modal-add-fingerprint{\n    margin-top: 150px;\n  }\n  \n  .add-fingerprint>h4{\n    color: #198ba6;\n    text-align: center;\n    font-size: 25px;\n  }\n  \n  .add-fingerprint>img{\n    height: 216px;\n    width: 179px;\n  }\n\n  #wrapp{\n    display: block;\n    margin-left:33%;\n    \n  }\n\n  \n  ", ""]);
 
 // exports
 
@@ -969,14 +969,14 @@ module.exports = "<div bsModal #smModal3=\"bs-modal\" class=\"modal fade\" tabin
 /***/ 1146:
 /***/ (function(module, exports) {
 
-module.exports = "<div bsModal #smModal3=\"bs-modal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLargeModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-sm\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <!-- <h4 class=\"modal-title\">Delete all data</h4> -->\n        <div class=\"picture fingerprint delete-fingerprint\">\n            <h4  style=\"color:#737373; line-height: 26px;\">Please select users you want to delete!</h4>\n          <div class=\"list-floor\" *ngFor=\"let user of users | reverse\">\n            <label style=\"color: #0C0909\">{{user.name}}: {{user.email}}</label>: <input type=\"checkbox\" id=\"{{user._id}}\" (click)=\"getuser(user.name, user._id)\" value=\"\" />\n          </div>\n        </div>\n      </div>\n      <div class=\"modal-body\">\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal3.hide()\">No</button>\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal3.hide();deleteUser()\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div bsModal #smModal2=\"bs-modal\" class=\"modal fade modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLargeModalLabel\" aria-hidden=\"true\">\n  \n          <div class=\"container\" style=\"color: white\">\n              <h2 class=\"page-header\">QRcode</h2>\n              <form (submit)=\"onQRcodeSubmit();smModal2.hide()\">\n                <div class=\"form-group\">\n                  <label>Name</label>\n                  <input type=\"text\" [(ngModel)]=\"name\" name=\"name\" class=\"form-control\">\n                </div>\n                \n                <div class=\"form-group\">\n                  <label>Email</label>\n                  <input type=\"text\" [(ngModel)]=\"email\" name=\"email\" class=\"form-control\">\n                </div>\n          \n                <div class=\"form-group\">\n                  <label>Content</label>\n                  <input type=\"text\" [(ngModel)]=\"content\" name=\"content\" class=\"form-control\">\n                </div>\n                \n                <div> <input type=\"submit\" class=\"btn btn-primary\" value=\"Create\"> </div>\n              </form>\n              <div class=\"pic\" >\n                   <qr-code id=\"base64\" [value]= \"content\" [size]=\"150\"></qr-code> \n              </div>\n            </div>\n      </div>\n      \n    \n\n<div class=\"row\">\n  <div class=\"col-md-5\">\n    <div class=\"picture fingerprint\">\n      <img src=\"./assets/images/access-control/fingerprint3.png\"\n           class=\"img-circle fingerprint-picture fingerprint-picture-gray\"\n           alt=\"Responsive image\"\n            (click)=\"smModal3.show()\">\n      <h4  style=\"color:#9a8484\">Delete all data</h4>\n    </div>\n  </div>\n  <hr class=\"vertical\">\n  <div class=\"col-md-5\">\n    <div class=\"picture fingerprint\">\n      <img src=\"./assets/images/access-control/fingerprint3.png\"\n           class=\"img-circle fingerprint-picture\"\n           alt=\"Responsive image\"\n            (click)=\"smModal2.show()\">\n      <h4>Add a fingerprint</h4>\n    </div>\n  </div>\n</div>\n<div class=\"footer\">\n  <div class=\"button\">\n    <div class=\"btn-back\">\n      <button class=\"btn\"\n          type=\"button\"\n          name=\"button\"\n          (click)=\"back()\">\n            <i class=\"fa fa-arrow-left\" aria-hidden=\"true\"></i> Back\n     </button>\n    </div>\n  </div>\n</div>"
+module.exports = "<div bsModal #smModal3=\"bs-modal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-md\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <!-- <h4 class=\"modal-title\">Delete all data</h4> -->\n        <div class=\"picture fingerprint delete-fingerprint\">\n            <h4  *ngIf=\"noUsers==false\" style=\"color:#737373; line-height: 26px;\">Please select users you want to delete!</h4>\n            <h4  *ngIf=\"noUsers==true\" style=\"color:#737373; line-height: 26px;\">No users!</h4>\n          <div style=\"margin-left:33%\" class=\"list-floor\" *ngFor=\"let user of filteredUsers | reverse\">\n            <input type=\"checkbox\" id=\"{{user._id}}\" (click)=\"getuser(user.name, user._id)\" value=\"\" />   <label style=\"color: #0C0909\">{{user.name}}: {{user.email}}</label> \n          </div>\n        </div>\n      </div>\n      <div class=\"modal-body\">\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal3.hide()\">No</button>\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal3.hide();deleteUser()\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div bsModal #smModal2=\"bs-modal\" class=\"modal fade modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" aria-hidden=\"true\">\n  \n        <div class=\"container\" style=\"color: white\">\n          <h2 class=\"page-header\" style=\"text-align:center\">QRcode</h2>\n            <div id=\"wrapp\">\n              <form (submit)=\"onQRcodeSubmit();smModal2.hide()\">\n                <div class=\"form-group col-md-6\">\n                  <label>Name</label>\n                  <input type=\"text\" [(ngModel)]=\"name\" name=\"name\" class=\"form-control\">\n                </div>\n                \n                <div class=\"form-group col-md-6\">\n                  <label>Email</label>\n                  <input type=\"text\" [(ngModel)]=\"email\" name=\"email\" class=\"form-control\">\n                </div> \n                \n                <div> <input type=\"submit\" class=\"btn btn-primary col-md-6\" value=\"Create\"> \n                </div>\n              </form>\n            </div>  \n            \n          </div>\n      </div>\n      \n      <div bsModal #smModal4=\"bs-modal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" aria-hidden=\"true\">\n        <div class=\"modal-dialog modal-sm\">\n          <div class=\"modal-content\">\n            <div class=\"modal-header\">\n              <!-- <h4 class=\"modal-title\">Delete all data</h4> -->\n              <div class=\"picture fingerprint delete-fingerprint\">\n                  <h4 style=\"color:#737373; line-height: 26px;\">Do you want to delete all datas</h4>                  \n              </div>\n            </div>\n            <div class=\"modal-body\">\n              <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal4.hide()\">No</button>\n              <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal4.hide();DeleteAll()\">Yes</button>\n            </div>\n          </div>\n        </div>\n      </div>    \n\n<div class=\"row\">\n  <div class=\"col-md-5\">\n    <div class=\"picture qrcode\">\n      <img src=\"./assets/images/access-control/qrcode.png\"\n           class=\"img-circle qrcode-picture fingerprint-picture-gray\"\n           alt=\"Responsive image\"\n            (click)=\"smModal3.show()\">\n      <h4  style=\"color:#9a8484\">Delete datas</h4>\n    </div>\n  </div>\n  <hr class=\"vertical\">\n  <div class=\"col-md-5\">\n    <div class=\"picture qrcode\">\n      <img src=\"./assets/images/access-control/qrcode.png\"\n           class=\"img-circle qrcode-picture\"\n           alt=\"Responsive image\"\n            (click)=\"smModal2.show()\">\n      <h4>Create a QRcode</h4>\n    </div>\n  </div>\n</div>\n<div class=\"footer\">\n  <div class=\"back-button\">\n    <div class=\"btn-back\">\n      <button class=\"btn\"\n          type=\"button\"\n          name=\"button\"\n          (click)=\"back()\">\n            <i class=\"fa fa-arrow-left\" aria-hidden=\"true\"></i> Back\n     </button>\n    </div>\n  </div>\n</div>\n\n\n  <div class=\"delete-button\">\n    <div class=\"btn-delete\">\n      <button class=\"btn\"\n          type=\"button\"\n          name=\"button\"\n          (click)=\"smModal4.show()\">\n            <i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i> Delete all data\n     </button>\n    </div>\n  </div>\n"
 
 /***/ }),
 
 /***/ 1147:
 /***/ (function(module, exports) {
 
-module.exports = "<div bsModal #smModal=\"bs-modal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-sm\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Are you sure you want to delete user <b>{{user.name}}</b> ?</h4>\n      </div>\n      <div class=\"modal-body\">\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal.hide()\">No</button>\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal.hide();deleteUser()\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div bsModal #smModal1=\"bs-modal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-sm img-picker-dialog\">\n    <div class=\"modal-content img-picker-content\">\n      <div class=\"modal-header img-picker-header\">\n        <h3>Please pick your avatar</h3>\n      </div>\n      <div class=\"modal-body img-picker-body\">\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar10.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar10.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar1.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar1.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar2.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar2.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar3.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar3.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar4.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar4.png')\">\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar5.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar5.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar6.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar6.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar7.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar7.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar8.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar8.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar9.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar9.png')\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n<!-- user -->\n<div class=\"user\">\n  <div class=\"panel panel-primary panel-pricing\">\n    <div class=\"panel-heading\">\n      <i class=\"fa fa-user-circle\" aria-hidden=\"true\"></i>\n      <!-- <h3 class=\"userName\">#1</h3> -->\n      <div class=\"x-icon\" >\n        <i class=\"fa fa-times\" aria-hidden=\"true\" (click)=\"smModal.show()\"></i>\n      </div>\n    </div>\n    <div class=\"row scirpt-body\">\n      <div class=\"col-md-4\">\n        <div class=\"picture\">\n          <div class=\"imgNotAvailable\" [hidden] = \"checkImgClick\">\n            <img src=\"{{user.imgPath}}\"\n                 class=\"img-circle user-picture\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.show()\">\n          </div>\n        </div>\n        <div class=\"user-name\">\n          <h3><b>{{user.name}}</b></h3>\n        </div>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"main_row_hidden\">\n        <div class=\"row qrcode-fingerprint\">\n          <div class=\"col-md-5\">\n            <div class=\"picture qrcode\">\n              <img src=\"./assets/images/access-control/qrcode.png\"\n                   class=\"img qrcode-picture\"\n                   alt=\"Responsive image\"\n                   (click)=\"show_qrcode_row()\"\n                  [ngStyle]=\"isQRCODEAvailable ? '' : grayFilter\">\n                  <h4 [ngStyle]=\"isQRCODEvailable ? '' : grayFilter\">\n                    QRcode <i class=\"fa fa-check\" aria-hidden=\"true\" [hidden]=\"!isQRCODEAvailable\"></i>\n                  </h4>\n            </div>\n          </div>\n          <div class=\"col-md-5\">\n            <div class=\"picture fingerprint\">\n              <img src=\"./assets/images/access-control/fingerprint3.png\"\n                   class=\"img-circle fingerprint-picture\"\n                   alt=\"Responsive image\"\n                    (click)=\"show_fingerprint_row()\"\n                    [ngStyle]=\"isFingerprintAvailable ? '' : grayFilter\">\n              <h4 [ngStyle]=\"isFingerprintAvailable ? '' : grayFilter\">\n                Fingerprint <i class=\"fa fa-check\" aria-hidden=\"true\" [hidden]=\"!isFingerprintAvailable\"></i>\n              </h4>\n            </div>\n          </div>\n          <div class=\"col-md-5\">\n            <div class=\"picture fingerprint\">\n              <img src=\"./assets/images/access-control/face-recognition.png\"\n                   class=\"img-circle fingerprint-picture\"\n                   alt=\"Responsive image\"\n                    (click)=\"show_face_row()\"\n                    [ngStyle]=\"isFingerprintAvailable ? '' : grayFilter\">\n              <h4 [ngStyle]=\"isFingerprintAvailable ? '' : grayFilter\">\n                Face <i class=\"fa fa-check\" aria-hidden=\"true\" [hidden]=\"!isFingerprintAvailable\"></i>\n              </h4>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"qr_hidden\">\n        <app-qrcode-access\n            [user]=\"user\"\n            (backEvent)=\"show_main_row()\"\n            (isFingerprintAvailable)=\"isFingerprintAvailable=$event;\">\n        </app-qrcode-access>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"fingerprint_hidden\">\n        <app-fingerprint\n            [user]=\"user\"\n            (backEvent)=\"show_main_row()\"\n            (isFingerprintAvailable)=\"isFingerprintAvailable=$event;\">\n        </app-fingerprint>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"face_hidden\">\n        <app-face-recognition\n            [user]=\"user\"\n            (backEvent)=\"show_main_row()\"\n            (isFingerprintAvailable)=\"isFingerprintAvailable=$event;\">\n        </app-face-recognition>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- user -->\n"
+module.exports = "<div bsModal #smModal=\"bs-modal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-sm\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Are you sure you want to delete user <b>{{user.name}}</b> ?</h4>\n      </div>\n      <div class=\"modal-body\">\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal.hide()\">No</button>\n        <button type=\"button\" class=\"btn btn-modal\" (click)=\"smModal.hide();deleteUser()\">Yes</button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div bsModal #smModal1=\"bs-modal\" class=\"modal fade\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"mySmallModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-sm img-picker-dialog\">\n    <div class=\"modal-content img-picker-content\">\n      <div class=\"modal-header img-picker-header\">\n        <h3>Please pick your avatar</h3>\n      </div>\n      <div class=\"modal-body img-picker-body\">\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar10.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar10.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar1.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar1.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar2.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar2.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar3.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar3.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar4.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar4.png')\">\n          </div>\n        </div>\n        <div class=\"row\">\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar5.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar5.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar6.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar6.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar7.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar7.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar8.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar8.png')\">\n          </div>\n          <div class=\"col-md-4\">\n            <img src=\"./assets/images/avatars/avatar9.png\"\n                 class=\"img-circle roomImg\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.hide();addImgSubmit('./assets/images/avatars/avatar9.png')\">\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n<!-- user -->\n<div class=\"user\">\n  <div class=\"panel panel-primary panel-pricing\">\n    <div class=\"panel-heading\">\n      <i class=\"fa fa-user-circle\" aria-hidden=\"true\"></i>\n      <!-- <h3 class=\"userName\">#1</h3> -->\n      <div class=\"x-icon\" >\n        <i class=\"fa fa-times\" aria-hidden=\"true\" (click)=\"smModal.show()\"></i>\n      </div>\n    </div>\n    <div class=\"row scirpt-body\">\n      <div class=\"col-md-4\">\n        <div class=\"picture\">\n          <div class=\"imgNotAvailable\" [hidden] = \"checkImgClick\">\n            <img src=\"{{user.imgPath}}\"\n                 class=\"img-circle user-picture\"\n                 alt=\"Responsive image\"\n                  (click)=\"smModal1.show()\">\n          </div>\n        </div>\n        <div class=\"user-name\">\n          <h3><b>{{user.name}}</b></h3>\n        </div>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"main_row_hidden\">\n        <div class=\"row qrcode-fingerprint\">\n          <div class=\"col-md-5\">\n            <div class=\"picture qrcode\">\n              <img src=\"./assets/images/access-control/qrcode.png\"\n                   class=\"img qrcode-picture\"\n                   alt=\"Responsive image\"\n                   (click)=\"show_qrcode_row()\"\n                  [ngStyle]=\"isQRAvailable ? '' : grayFilter\">\n                  <h4 [ngStyle]=\"isQRvailable ? '' : grayFilter\">\n                    QRcode <i class=\"fa fa-check\" aria-hidden=\"true\" [hidden]=\"!isQRAvailable\"></i>\n                  </h4>\n            </div>\n          </div>\n          <div class=\"col-md-5\">\n            <div class=\"picture fingerprint\">\n              <img src=\"./assets/images/access-control/fingerprint3.png\"\n                   class=\"img-circle fingerprint-picture\"\n                   alt=\"Responsive image\"\n                    (click)=\"show_fingerprint_row()\"\n                    [ngStyle]=\"isFingerprintAvailable ? '' : grayFilter\">\n              <h4 [ngStyle]=\"isFingerprintAvailable ? '' : grayFilter\">\n                Fingerprint <i class=\"fa fa-check\" aria-hidden=\"true\" [hidden]=\"!isFingerprintAvailable\"></i>\n              </h4>\n            </div>\n          </div>\n          <div class=\"col-md-5\">\n            <!-- (click)=\"show_face_row()\" nang cap thi de y cai nay de sua vao -->\n            <div class=\"picture fingerprint\">\n              <img src=\"./assets/images/access-control/face-recognition.png\"\n                   class=\"img-circle fingerprint-picture\"\n                   alt=\"Responsive image\"\n                    \n                    [ngStyle]=\"grayFilter\">\n              <h4 [ngStyle]=\"grayFilter\">\n                Face <i class=\"fa fa-check\" aria-hidden=\"true\" [hidden]=\"!isFingerprintAvailable\"></i>\n              </h4>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"qr_hidden\">\n        <app-qrcode-access\n            [user]=\"user\"\n            (backEvent)=\"show_main_row()\"\n            (isQRAvailable)=\"isQRAvailable=$event;\">\n        </app-qrcode-access>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"fingerprint_hidden\">\n        <app-fingerprint\n            [user]=\"user\"\n            (backEvent)=\"show_main_row()\"\n            (isFingerprintAvailable)=\"isFingerprintAvailable=$event;\">\n        </app-fingerprint>\n      </div>\n      <div class=\"col-md-8 device-picker\"  [hidden]=\"face_hidden\">\n        <app-face-recognition\n            [user]=\"user\"\n            (backEvent)=\"show_main_row()\"\n            (isFingerprintAvailable)=\"isFingerprintAvailable=$event;\">\n        </app-face-recognition>\n      </div>\n    </div>\n  </div>\n</div>\n<!-- user -->\n"
 
 /***/ }),
 
@@ -1247,7 +1247,7 @@ var ValidateService = (function () {
         }
     };
     ValidateService.prototype.validateQRcode = function (user) {
-        if (user.name == undefined || user.email == undefined || user.content == undefined || user.image == undefined) {
+        if (user.name == undefined || user.email == undefined) {
             return false;
         }
         else {
@@ -1561,7 +1561,7 @@ var SceneService = (function () {
 
 /***/ }),
 
-/***/ 46:
+/***/ 43:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1626,7 +1626,6 @@ var UserService = (function () {
     UserService.prototype.getProfile = function () {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["Headers"]();
         this.loadToken();
-        console.log(this.authToken);
         headers.append('Authorization', this.authToken);
         headers.append('Content-Type', 'application/json');
         return this.http.get(this.baseURL + '/users/profile', { headers: headers })
@@ -2028,8 +2027,8 @@ var RuleService = (function () {
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
     production: false,
-    baseURL: 'http://localhost:3000',
-    baseSocketURL: 'http://localhost:4000'
+    baseURL: 'http://192.168.10.100:3000',
+    baseSocketURL: 'http://192.168.10.100:4000'
 };
 //# sourceMappingURL=/home/thanhbinh/Desktop/ThaBin/BKHome/angular-src/src/environment.js.map
 
@@ -2139,7 +2138,7 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_config_config_component__ = __webpack_require__(956);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_config_config_navbar_config_navbar_component__ = __webpack_require__(955);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_validate_service__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_rest_api_house_service__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_rest_api_device_service__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__services_rest_api_scene_service__ = __webpack_require__(273);
@@ -2634,7 +2633,7 @@ var FingerprintComponent = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_validate_service__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(22);
@@ -2663,29 +2662,26 @@ var QrcodeAccessComponent = (function () {
         this.router = router;
         this.toastrService = toastrService;
         this.backEvent = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
-        this.isFingerprintAvailable = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+        this.isQRAvailable = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+        this.filteredUsers = [];
         this.deleteUsers = [];
+        this.success = true;
+        this.effort = false;
     }
     QrcodeAccessComponent.prototype.ngOnInit = function () {
         this.getListOfusers();
     };
     QrcodeAccessComponent.prototype.onQRcodeSubmit = function () {
         var _this = this;
-        // receive image
-        var canvase = document.getElementById('base64');
-        this.pre_image = canvase.innerHTML;
-        var end = this.pre_image.lastIndexOf("width") - 2;
-        this.image_base64 = this.pre_image.slice(32, end);
         var QRuser = {
             name: this.name,
             email: this.email,
-            content: this.content,
-            image: this.image_base64,
-            _userId: this.user
+            _userId: this.user._id
         };
+        console.log(QRuser);
         // Required Fields
         if (!this.validateService.validateQRcode(QRuser)) {
-            this.toastrService.error('Oops! please fill all fields', 'Error');
+            this.toastrService.error('Oops! please fill all fields', 'Error', { timeOut: 1000 });
             return false;
         }
         // Required Email
@@ -2696,10 +2692,10 @@ var QrcodeAccessComponent = (function () {
         // Register QRcode
         this.authService.registerQRcode(QRuser).subscribe(function (data) {
             if (data.success) {
-                _this.toastrService.success('Created!', 'Success');
+                _this.toastrService.success('Created!', 'Success', { timeOut: 1000 });
             }
             else {
-                _this.toastrService.error('Oops! please try later', 'Error');
+                _this.toastrService.error('Oops! please try later', 'Error', { timeOut: 1000 });
             }
         });
         this.getListOfusers();
@@ -2720,35 +2716,96 @@ var QrcodeAccessComponent = (function () {
     };
     QrcodeAccessComponent.prototype.getListOfusers = function () {
         var _this = this;
+        this.filteredUsers = [];
         this.authService.getListOfQRcodes().subscribe(function (res) {
             if (!res.success) {
-                console.log(res.msg);
+                _this.filteredUsers = [];
             }
             else {
                 _this.users = res.users;
+                for (var _i = 0, _a = _this.users; _i < _a.length; _i++) {
+                    var usr = _a[_i];
+                    if (usr.userId == _this.user._id) {
+                        _this.filteredUsers.push(usr);
+                    }
+                }
             }
-        }, function (err) {
-            console.log(err);
-            return false;
+            if (_this.filteredUsers.length == 0) {
+                _this.noUsers = true;
+            }
+            else {
+                _this.noUsers = false;
+            }
         });
     };
     QrcodeAccessComponent.prototype.deleteUser = function () {
         var _this = this;
-        for (var i = 0; i < this.deleteUsers.length; i++) {
-            this.authService.deleteUser(this.deleteUsers[i]).subscribe(function (res) {
-                if (res.success) {
-                    _this.deleteUsers = [];
-                    _this.success = true;
-                }
-            });
-        }
-        if (this.success) {
-            this.toastrService.success('deleted!', 'Success');
+        if (this.effort == false) {
+            for (var i = 0; i < this.deleteUsers.length; i++) {
+                this.authService.deleteUser(this.deleteUsers[i]).subscribe(function (res) { });
+            }
+            this.effort = true;
+            for (var i = 1; i < this.deleteUsers.length; i++) {
+                this.authService.deleteUser(this.deleteUsers[i]).subscribe(function (res) {
+                    if (res.success) {
+                        _this.success = true;
+                    }
+                    else {
+                        _this.success = false;
+                    }
+                });
+                if (this.success == false)
+                    break;
+            }
         }
         else {
-            this.toastrService.error('Oops! please try later', 'Error');
+            for (var i = 0; i < this.deleteUsers.length; i++) {
+                this.authService.deleteUser(this.deleteUsers[i]).subscribe(function (res) {
+                    if (res.success) {
+                        _this.success = true;
+                    }
+                    else {
+                        _this.success = false;
+                    }
+                });
+                if (this.success == false)
+                    break;
+            }
         }
+        if (this.success) {
+            this.toastrService.success('deleted!', 'Success', { timeOut: 1000 });
+        }
+        else {
+            this.toastrService.error('Oops! please try later', 'Error', { timeOut: 1000 });
+        }
+        this.deleteUsers = [];
         this.getListOfusers();
+    };
+    QrcodeAccessComponent.prototype.DeleteAll = function () {
+        var _this = this;
+        this.filteredUsers = [];
+        this.authService.getListOfQRcodes().subscribe(function (res) {
+            if (!res.success) {
+                _this.filteredUsers = [];
+            }
+            else {
+                _this.users = res.users;
+                for (var _i = 0, _a = _this.users; _i < _a.length; _i++) {
+                    var usr = _a[_i];
+                    if (usr.userId == _this.user._id) {
+                        _this.filteredUsers.push(usr);
+                    }
+                }
+            }
+            for (var i = 0; i < _this.filteredUsers.length; i++) {
+                _this.authService.deleteUser(_this.filteredUsers[i]._id).subscribe(function (res) {
+                    _this.getListOfusers();
+                });
+            }
+        });
+    };
+    QrcodeAccessComponent.prototype.back = function () {
+        this.backEvent.emit();
     };
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(), 
@@ -2757,7 +2814,7 @@ var QrcodeAccessComponent = (function () {
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(), 
         __metadata('design:type', Object)
-    ], QrcodeAccessComponent.prototype, "isFingerprintAvailable", void 0);
+    ], QrcodeAccessComponent.prototype, "isQRAvailable", void 0);
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
         __metadata('design:type', Object)
@@ -2784,6 +2841,7 @@ var QrcodeAccessComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_access_control_service__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_broadcast_message_event_service__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserAccctrlComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2797,17 +2855,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var UserAccctrlComponent = (function () {
-    function UserAccctrlComponent(accessControlService, messageEvent) {
+    function UserAccctrlComponent(accessControlService, messageEvent, userService) {
         this.accessControlService = accessControlService;
         this.messageEvent = messageEvent;
+        this.userService = userService;
         this.deleteUserEvent = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+        this.filteredUsers = [];
         this.main_row_hidden = false;
         this.fingerprint_hidden = true;
         this.face_hidden = true;
-        this.qr_hiden = true;
+        this.qr_hidden = true;
         this.grayFilter = { filter: 'grayscale(100%)', color: 'gray' };
-        this.isQRCODEAvailable = false;
+        this.isQRAvailable = false;
         this.isFingerprintAvailable = false;
     }
     UserAccctrlComponent.prototype.ngOnInit = function () {
@@ -2816,9 +2877,27 @@ var UserAccctrlComponent = (function () {
         }
         this.isFingerprintAvailable = !!this.user.fingerprintId.length;
         this.avatar = this.user.imgPath;
+        this.getQRcodeInUser();
     };
     UserAccctrlComponent.prototype.ngOnChanges = function () {
-        console.log("changed");
+    };
+    UserAccctrlComponent.prototype.getQRcodeInUser = function () {
+        var _this = this;
+        this.userService.getListOfQRcodes().subscribe(function (data) {
+            if (data.success) {
+                _this.users = data.users;
+                for (var _i = 0, _a = _this.users; _i < _a.length; _i++) {
+                    var usr = _a[_i];
+                    if (usr.userId == _this.user._id) {
+                        _this.filteredUsers.push(usr);
+                    }
+                }
+                _this.isQRAvailable = !!_this.filteredUsers.length;
+            }
+            else {
+                _this.filteredUsers = [];
+            }
+        });
     };
     UserAccctrlComponent.prototype.addImgSubmit = function (imgPath) {
         this.user.imgPath = imgPath;
@@ -2837,30 +2916,49 @@ var UserAccctrlComponent = (function () {
             console.log(res);
             _this.deleteUserEvent.emit();
         });
+        this.filteredUsers = [];
+        this.userService.getListOfQRcodes().subscribe(function (res) {
+            if (!res.success) {
+                _this.filteredUsers = [];
+            }
+            else {
+                _this.users = res.users;
+                for (var _i = 0, _a = _this.users; _i < _a.length; _i++) {
+                    var usr = _a[_i];
+                    if (usr.userId == _this.user._id) {
+                        _this.filteredUsers.push(usr);
+                    }
+                }
+            }
+            for (var i = 0; i < _this.filteredUsers.length; i++) {
+                _this.userService.deleteUser(_this.filteredUsers[i]._id).subscribe(function (res) { });
+            }
+        });
     };
     UserAccctrlComponent.prototype.show_main_row = function () {
         this.main_row_hidden = false;
         this.fingerprint_hidden = true;
         this.face_hidden = true;
-        this.qr_hiden = true;
+        this.qr_hidden = true;
+        this.getQRcodeInUser();
     };
     UserAccctrlComponent.prototype.show_fingerprint_row = function () {
         this.main_row_hidden = true;
         this.fingerprint_hidden = false;
         this.face_hidden = true;
-        this.qr_hiden = true;
+        this.qr_hidden = true;
     };
     UserAccctrlComponent.prototype.show_face_row = function () {
         this.main_row_hidden = true;
         this.fingerprint_hidden = true;
         this.face_hidden = false;
-        this.qr_hiden = true;
+        this.qr_hidden = true;
     };
     UserAccctrlComponent.prototype.show_qrcode_row = function () {
         this.main_row_hidden = true;
         this.fingerprint_hidden = true;
         this.face_hidden = true;
-        this.qr_hiden = false;
+        this.qr_hidden = false;
     };
     __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
@@ -2876,10 +2974,10 @@ var UserAccctrlComponent = (function () {
             template: __webpack_require__(1147),
             styles: [__webpack_require__(1066)]
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_rest_api_access_control_service__["a" /* AccessControlService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__services_rest_api_access_control_service__["a" /* AccessControlService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__services_broadcast_message_event_service__["a" /* MessageEventService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__services_broadcast_message_event_service__["a" /* MessageEventService */]) === 'function' && _b) || Object])
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_rest_api_access_control_service__["a" /* AccessControlService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__services_rest_api_access_control_service__["a" /* AccessControlService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__services_broadcast_message_event_service__["a" /* MessageEventService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__services_broadcast_message_event_service__["a" /* MessageEventService */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__services_rest_api_user_service__["a" /* UserService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__services_rest_api_user_service__["a" /* UserService */]) === 'function' && _c) || Object])
     ], UserAccctrlComponent);
     return UserAccctrlComponent;
-    var _a, _b;
+    var _a, _b, _c;
 }());
 //# sourceMappingURL=/home/thanhbinh/Desktop/ThaBin/BKHome/angular-src/src/user-accctrl.component.js.map
 
@@ -3320,7 +3418,7 @@ var SensorComponent = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_house_service__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_flash_messages__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_flash_messages___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_angular2_flash_messages__);
@@ -3869,7 +3967,7 @@ var SensorModuleComponent = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_validate_service__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(22);
@@ -6137,7 +6235,7 @@ var HomeComponent = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__);
@@ -6207,7 +6305,7 @@ var LoginComponent = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__ = __webpack_require__(50);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavbarComponent; });
@@ -6258,7 +6356,7 @@ var NavbarComponent = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(22);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfileComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -6309,7 +6407,7 @@ var ProfileComponent = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_validate_service__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_flash_messages__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(22);
@@ -6489,7 +6587,7 @@ var SecurityComponent = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_rest_api_user_service__ = __webpack_require__(43);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthGuard; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

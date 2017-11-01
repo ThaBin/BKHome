@@ -1,13 +1,13 @@
-<div bsModal #smModal3="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
+<div bsModal #smModal3="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
     <div class="modal-content">
       <div class="modal-header">
         <!-- <h4 class="modal-title">Delete all data</h4> -->
         <div class="picture fingerprint delete-fingerprint">
             <h4  *ngIf="noUsers==false" style="color:#737373; line-height: 26px;">Please select users you want to delete!</h4>
             <h4  *ngIf="noUsers==true" style="color:#737373; line-height: 26px;">No users!</h4>
-          <div class="list-floor" *ngFor="let user of filteredUsers | reverse">
-            <label style="color: #0C0909">{{user.name}}: {{user.email}}</label>: <input type="checkbox" id="{{user._id}}" (click)="getuser(user.name, user._id)" value="" />
+          <div style="margin-left:33%" class="list-floor" *ngFor="let user of filteredUsers | reverse">
+            <input type="checkbox" id="{{user._id}}" (click)="getuser(user.name, user._id)" value="" />   <label style="color: #0C0909">{{user.name}}: {{user.email}}</label> 
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
   </div>
 </div>
 
-<div bsModal #smModal2="bs-modal" class="modal fade modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div bsModal #smModal2="bs-modal" class="modal fade modal2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   
         <div class="container" style="color: white">
           <h2 class="page-header" style="text-align:center">QRcode</h2>
@@ -43,7 +43,22 @@
           </div>
       </div>
       
-    
+      <div bsModal #smModal4="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h4 class="modal-title">Delete all data</h4> -->
+              <div class="picture fingerprint delete-fingerprint">
+                  <h4 style="color:#737373; line-height: 26px;">Do you want to delete all datas</h4>                  
+              </div>
+            </div>
+            <div class="modal-body">
+              <button type="button" class="btn btn-modal" (click)="smModal4.hide()">No</button>
+              <button type="button" class="btn btn-modal" (click)="smModal4.hide();DeleteAll()">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>    
 
 <div class="row">
   <div class="col-md-5">
@@ -67,7 +82,7 @@
   </div>
 </div>
 <div class="footer">
-  <div class="button">
+  <div class="back-button">
     <div class="btn-back">
       <button class="btn"
           type="button"
@@ -78,3 +93,15 @@
     </div>
   </div>
 </div>
+
+
+  <div class="delete-button">
+    <div class="btn-delete">
+      <button class="btn"
+          type="button"
+          name="button"
+          (click)="smModal4.show()">
+            <i class="fa fa-trash-o" aria-hidden="true"></i> Delete all data
+     </button>
+    </div>
+  </div>
