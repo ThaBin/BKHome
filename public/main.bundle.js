@@ -2027,8 +2027,8 @@ var RuleService = (function () {
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
     production: false,
-    baseURL: 'http://localhost:3000',
-    baseSocketURL: 'http://localhost:4000'
+    baseURL: 'http://192.168.10.100:3000',
+    baseSocketURL: 'http://192.168.10.100:4000'
 };
 //# sourceMappingURL=/home/thanhbinh/Desktop/ThaBin/BKHome/angular-src/src/environment.js.map
 
