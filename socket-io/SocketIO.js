@@ -119,7 +119,7 @@ io.on('connection', (socket) => {
         mqttClient.publish('sim900/call', message.phoneNumber)
         break;
       case 'SEND SMS':
-        mqttClient.publish('sim900/send-sms', message.phoneNumber)
+        mqttClient.publish('sim900/send-sms', message.phoneNumber+ '/' +message.message)
         break;
     }
   })

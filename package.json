@@ -12,6 +12,7 @@
     "atob": "^2.0.3",
     "bcryptjs": "*",
     "body-parser": "*",
+    "canvas": "^1.6.7",
     "cors": "*",
     "cron": "^1.2.1",
     "express": "*",
