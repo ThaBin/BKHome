@@ -28,7 +28,8 @@ export class LightComponent implements OnInit, OnDestroy {
     this.messageEvent = this.messageSerivce.on(this.light._id)
      .subscribe((message:any) => {
        this.lightValue = message;
-       this.preLightValue = this.switchValue = this.lightValue;
+      //   this.preLightValue = this.switchValue = this.lightValue; nguyen ban
+       this.switchValue = this.lightValue;
        this.color = this.VBColorToHEX(this.lightValue);
        console.log(message);
     });

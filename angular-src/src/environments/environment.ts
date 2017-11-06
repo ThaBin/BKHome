@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  baseURL: 'http://192.168.10.100:3000',
-  baseSocketURL: 'http://192.168.10.100:4000'
+  baseURL: 'http://localhost:3000',
+  baseSocketURL: 'http://localhost:4000'
 };

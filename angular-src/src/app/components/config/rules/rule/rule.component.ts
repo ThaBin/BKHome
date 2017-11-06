@@ -219,9 +219,9 @@ export class RuleComponent implements OnInit {
   // }
 
   runrule(){
-    for(let device of this.rule.devices){
-      this.messageEvent.emit("device-event", device);
-    }
+    // for(let device of this.rule.devices){
+    //   this.messageEvent.emit("device-event", device);
+    // }
   }
 
   updateIfCond(operation){

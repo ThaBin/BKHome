@@ -13,6 +13,7 @@
   margin-left: 15px;
 }
 
+
 .btn:focus, .btn:hover{
   color: black;
   border: 0px;
@@ -33,8 +34,9 @@
   border: none;
   border-radius: 5px;
   padding-left: 13px;
+  padding-right: 13px;
   margin-left: 8px;
-  width: 228%;
+  width: 60%;
 }
 
 hr {

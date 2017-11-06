@@ -22,6 +22,7 @@ export class MobileActionComponent implements OnInit {
 
   command: String;
   phoneNumber: any;
+  message: any;
   deviceId: String;
   deviceName: String;
   dimmable: Boolean;
@@ -32,6 +33,7 @@ export class MobileActionComponent implements OnInit {
   ngOnInit() {
     this.command = this.action.typeOfMobileAction;
     this.phoneNumber = this.action.phoneNumber;
+    this.message = this.action.message;
   }
 
   ngOnChanges(){
@@ -52,10 +54,16 @@ export class MobileActionComponent implements OnInit {
     this.updateActionEvent.emit();
   }
 
-  editValue(event){
+  editValuePhoneNumber(event){
     let phoneNumber = event.target.value;
     this.phoneNumber = phoneNumber;
     this.action.phoneNumber = phoneNumber;
+    this.updateActionEvent.emit();
+  }
+
+  editValueMessage(event){
+    this.message = event.target.value;
+    this.action.message = this.message; 
     this.updateActionEvent.emit();
   }
 
