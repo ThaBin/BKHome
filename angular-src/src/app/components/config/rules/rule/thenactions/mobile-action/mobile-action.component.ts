@@ -65,6 +65,7 @@ export class MobileActionComponent implements OnInit {
     this.message = event.target.value;
     this.action.message = this.message; 
     this.updateActionEvent.emit();
+    
   }
 
   deleteAction(){

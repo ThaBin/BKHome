@@ -15,7 +15,7 @@ export class AppComponent {
              ) {
              }
 
-   private url = window.location.hostname + ':4000';
+   private url = 'http://' + window.location.hostname + ':4000';
    private socket
 
    ngOnInit() {

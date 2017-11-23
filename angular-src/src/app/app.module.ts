@@ -73,7 +73,6 @@ import { FingerprintComponent } from './components/config/access-control/user-ac
 import { FaceRecognitionComponent } from './components/config/access-control/user-accctrl/face-recognition/face-recognition.component';
 import { MobileActionComponent } from './components/config/rules/rule/thenactions/mobile-action/mobile-action.component';
 import { CameraComponent } from './components/config/camera/camera.component';
-import { QrcodeComponent } from './components/config/qrcode/qrcode.component';
 import { QrcodeAccessComponent } from './components/config/access-control/user-accctrl/qrcode-access/qrcode-access.component';
 
 
@@ -92,8 +91,7 @@ const appRoutes: Routes = [
       {path: 'scenes', component: ScenesComponent, canActivate:[AuthGuard]},
       {path: 'rules', component: RulesComponent, canActivate:[AuthGuard]},
       {path: 'access-control', component: AccessControlComponent, canActivate:[AuthGuard]},
-      {path: 'camera', component: CameraComponent, canActivate:[AuthGuard]},
-      {path: 'qrcode', component: QrcodeComponent, canActivate:[AuthGuard]}
+      {path: 'camera', component: CameraComponent, canActivate:[AuthGuard]}
       
     ]
   },
@@ -138,7 +136,6 @@ const appRoutes: Routes = [
     FaceRecognitionComponent,
     MobileActionComponent,
     CameraComponent,
-    QrcodeComponent,
     QrcodeAccessComponent,
    
     
