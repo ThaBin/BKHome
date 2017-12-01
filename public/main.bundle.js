@@ -1659,7 +1659,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var SocketioService = (function () {
     function SocketioService() {
-        this.url = 'http://' + window.location.hostname + ':4000';
+        this.url = window.location.hostname + ':4000';
         console.log(this.url);
     }
     SocketioService.prototype.connect = function () {
@@ -2002,8 +2002,8 @@ var RuleService = (function () {
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
     production: false,
-    baseURL: 'http://' + window.location.hostname + ':3000',
-    baseSocketURL: 'http://' + window.location.hostname + ':4000'
+    baseURL: 'http://192.168.10.100:3000',
+    baseSocketURL: 'http://192.168.10.100:4000'
 };
 //# sourceMappingURL=/home/thanhbinh/Desktop/ThaBin/BKHome/angular-src/src/environment.js.map
 
@@ -2036,7 +2036,7 @@ var AppComponent = (function () {
     function AppComponent(socketioService, messageEvent) {
         this.socketioService = socketioService;
         this.messageEvent = messageEvent;
-        this.url = 'http://' + window.location.hostname + ':4000';
+        this.url = window.location.hostname + ':4000';
     }
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;

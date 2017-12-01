@@ -6,7 +6,7 @@ import * as io from 'socket.io-client';
 
 @Injectable()
 export class SocketioService {
-  private url = 'http://' + window.location.hostname + ':4000';
+  private url = window.location.hostname + ':4000';
   private socket;
 
   constructor() {

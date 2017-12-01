@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  baseURL: 'http://' + window.location.hostname + ':3000',
-  baseSocketURL: 'http://' + window.location.hostname + ':4000'
+  baseURL: 'http://192.168.10.100:3000',
+  baseSocketURL: 'http://192.168.10.100:4000'
 };
